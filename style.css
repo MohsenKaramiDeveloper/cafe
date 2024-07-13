@@ -28,7 +28,8 @@ header {
 nav ul {
     list-style: none;
     display: flex;
-    gap: 20px;
+    gap: 50px;
+    color: #ffffff;
 }
 
 nav a {
