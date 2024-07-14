@@ -131,13 +131,13 @@ nav a {
 }
 
 .features {
-    display: flex;
-    flex-direction: column;
+ 
     gap: 20px;
 }
 
 .feature {
     text-align: center;
+    
 }
 
 .feature img {
@@ -173,6 +173,7 @@ nav a {
     padding: 20px;
     background-color: #000000;
     color: #ffffff;
+    position: relative;
 }
 
 .testimonials h2 {
@@ -182,6 +183,12 @@ nav a {
 
 .testimonial {
     margin-bottom: 20px;
+    
+}
+.testimonial p{
+    position: absolute;
+    font-size: 1.404rem;
+    margin-top: 800px;
 }
 
 .testimonial img {
