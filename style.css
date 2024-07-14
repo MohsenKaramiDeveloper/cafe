@@ -52,13 +52,15 @@ nav a {
     background-color: #000000;
     position: relative;
     padding: 0px;
+    height: 600px;
 }
 
 .hero img {
-    width: 100%;
+    width: 100vw;
     height: auto;
     display: block;
-    height: 500px;
+    
+ 
     opacity: 30%;
     
 }
@@ -154,6 +156,10 @@ nav a {
 .story {
     padding: 20px;
     background-color: #f8f8f8;
+}
+
+.story img{
+    width: 100vw;
 }
 
 .story h2 {
