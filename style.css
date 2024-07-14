@@ -127,6 +127,10 @@ nav a {
     height: auto;
 }
 
+.welcomes{
+    display: grid;
+}
+
 .why-visit {
     padding: 20px;
     background-color: #f8f8f8;
