@@ -53,15 +53,21 @@ nav a {
     position: relative;
     padding: 0px;
     height: 600px;
+    /* background-image: url(photo/hero-background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw; */
+    
+    
 }
 
 .hero img {
     width: 100vw;
     height: auto;
     display: block;
-    
- 
     opacity: 30%;
+    object-fit: contain;
+    
+    
     
 }
 
