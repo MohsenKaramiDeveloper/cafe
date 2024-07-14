@@ -17,7 +17,7 @@ header {
     background-color: #000000;
     height: 300px;
     font-size: 1.424rem;
-    
+
     /* h1 2.027rem */
     /* h2 1.802rem */
     /* h3 1.404rem */
@@ -72,13 +72,13 @@ nav a {
 }
 
 .hero-text h1 {
-    font-size: 24px;
+    font-size: 2.027rem;
     margin-bottom: 10px;
     font-family: 'Lato', sans-serif;
 }
 
 .hero-text p {
-    font-size: 18px;
+    font-size: 16px;
     margin-bottom: 20px;
     font-family: 'Karla', sans-serif;
 }
@@ -86,10 +86,9 @@ nav a {
 .btn {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #333;
-    color: #fff;
+    background-color: #ffffff;
+    color: #000000;
     text-decoration: none;
-    border-radius: 5px;
     font-family: 'Karla', sans-serif;
 }
 
