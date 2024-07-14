@@ -171,7 +171,8 @@ nav a {
 .testimonials {
     text-align: center;
     padding: 20px;
-    background-color: #fff;
+    background-color: #000000;
+    color: #ffffff;
 }
 
 .testimonials h2 {
@@ -184,9 +185,10 @@ nav a {
 }
 
 .testimonial img {
-    max-width: 100px;
-    border-radius: 50%;
-    margin-bottom: 10px;
+    max-width: 100vh;
+    opacity: 40%;
+    
+    
 }
 
 footer {
