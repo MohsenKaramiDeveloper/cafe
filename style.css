@@ -40,29 +40,42 @@ nav a {
     
 }
 
+
 .hero {
     text-align: center;
     padding: 50px 20px;
     background-color: #f8f8f8;
+    position: relative;
+    padding: 0px;
 }
 
 .hero img {
-    max-width: 100%;
-    /* height: auto; */
+    width: 100%;
+    height: auto;
+    display: block;
+    height: 500px;
+    
 }
 
 .hero-text {
-    margin-top: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .hero-text h1 {
     font-size: 24px;
     margin-bottom: 10px;
+    font-family: 'Lato', sans-serif;
 }
 
 .hero-text p {
     font-size: 18px;
     margin-bottom: 20px;
+    font-family: 'Karla', sans-serif;
 }
 
 .btn {
@@ -72,6 +85,7 @@ nav a {
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
+    font-family: 'Karla', sans-serif;
 }
 
 .welcome {
