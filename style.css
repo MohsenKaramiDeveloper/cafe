@@ -128,7 +128,14 @@ nav a {
 }
 
 .welcomes{
+    .a {grid-area: a;}
+    .b {grid-area: b;}
+    .c {grid-area: c;}
+    .d {grid-area: d;}
     display: grid;
+    grid-template-areas: 
+    'a a b b'
+    'c c d d';
 }
 
 .why-visit {
