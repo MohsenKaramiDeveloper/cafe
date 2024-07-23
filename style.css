@@ -68,6 +68,7 @@ nav a {
     height: 400px;
     background-image: url(image/hero-background.jpg);
     background-size: cover;
+    opacity: 50%;
    
 }
 
