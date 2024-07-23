@@ -125,6 +125,7 @@ nav a {
 .welcome img {
     max-width: 100%;
     height: auto;
+    margin-bottom: 10px;
 }
 
 .welcomes{
@@ -136,6 +137,9 @@ nav a {
     grid-template-areas: 
     'a a b b'
     'c c d d';
+    row-gap: 10px;
+    column-gap: 20px;
+    
 }
 
 .why-visit {
